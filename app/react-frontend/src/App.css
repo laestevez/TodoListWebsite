@@ -1,0 +1,45 @@
+body {
+    background-color: #121212
+}
+
+.image-upload {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.file-upload{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.imageGallery-title{
+    font-family: 'Proxima nova', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-left: 250px;
+    color: #fff;
+}
+
+.image-gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.images{
+    border-radius: 15px;
+    width: 200px;
+    height: 235px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.images:hover {
+    transform: translateY(-5px);
+  }

@@ -1,0 +1,75 @@
+.library-title {
+  font-size: 4rem;
+  margin-top: 200px;
+  font-weight: bold;
+  font-family: 'Proxima nova', sans-serif;
+  color: #ffffff !important;
+}
+
+.username-title {
+  font-size: 1rem;
+  margin-top: 200px;
+  font-family: 'Proxima nova', sans-serif;
+  color: #ffffffaf !important;
+}
+
+.img-fluid {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  width: 350px;
+  height: 350px;
+  background-size: contain;
+}
+
+.table{
+  font-family: 'Proxima nova', sans-serif;
+  color: #fff;
+}
+
+.thead{
+  font-family: 'Proxima nova', sans-serif;
+  color: #fff;
+  border-color: #ffffff;
+  text-align: center;
+}
+
+.tbody{
+  font-family: 'Proxima nova', sans-serif;
+  color: #ffffffb2;
+  border-bottom: hidden;
+}
+
+.btn-danger {
+  margin-top: 30px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn-danger:hover {
+  background-image: linear-gradient(-180deg, #c91d1d 0%, #9c1717 100%);
+}
+
+.btn-primary {
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  color: #FFFFFF;
+  margin-top: 30px;
+  margin-left: 5px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn-primary:hover {
+  background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}
+
+@media (min-width: 768px) {
+  .btn-primary {
+    padding: 5px 20px;
+  }
+}

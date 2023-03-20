@@ -1,0 +1,15 @@
+.bg-nav-color {
+  background-color: #181818
+}
+
+.navbar-brand{
+  font-family: 'Proxima nova', sans-serif;
+  color: #ffffff !important;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.nav-link{
+  font-family: 'Proxima nova', sans-serif;
+  margin: 5px;
+}
